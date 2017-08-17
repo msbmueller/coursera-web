@@ -46,7 +46,7 @@ section div
 	width: 90%;
 	margin: 10px auto 50px;
 	padding: 5px 30px;
-	height: 3000px;
+	min-height: 3000px;
 
 }
 
