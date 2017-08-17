@@ -1,0 +1,61 @@
+body
+{
+	background-color: maroon;
+}
+h1
+{
+	color: #000000;
+}
+#header-nav
+{
+	background-color: #AAAAAA;
+	border-radius: 0;
+  	border-color: black;
+  	border-width: 2px;
+}
+.navbar-brand span
+{
+	color: #000000;
+	font-size: 1.2em;
+}
+#nav-list
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list a
+{
+	color: #000000;
+	border: 1px solid black;
+	font-size: 1.3em;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+
+section div
+{
+	background:#CCCCCC;
+	width: 90%;
+	margin: 10px auto 50px;
+	padding: 5px 30px;
+	height: 3000px;
+
+}
+
+@media (max-width: 767px)
+{	
+	#collapse-nav
+	{
+		background: #f4bdcb;
+		border-color: black;
+		border-width: 2px;
+	}
+}
